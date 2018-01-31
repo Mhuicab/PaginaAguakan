@@ -16,7 +16,7 @@
         </div>
         <ul class="nav navbar-nav">
           <li class="active"><a href="#">Lecturitas</a></li>
-          <li><a href="Controller\ControllerRuta.php">Rutas</a></li>
+          <li><a href="#">Rutas</a></li>
           <li><a href="#"></a></li>
         </ul>
         <ul class="nav navbar-nav">
@@ -41,29 +41,6 @@
 
   <div class="content">
     <div class="container">
-      <div class="table-responsive">
-        <table class="table table-bordered  ">
-          <thead class="table table-default">
-            <tr>
-              <td>ID</td>
-              <td>Nombre</td>
-              <td>Apellido</td>
-              <td>User</td>
-            </tr>
-          </thead>
-          <tbody>
-            <?php foreach ($listUser as $lusr): ?>
-              <tr>
-                <td><?php echo $lusr['Id'] ?></td>
-                <td><?php echo $lusr['Nombre'] ?></td>
-                <td><?php echo $lusr['Apellido'] ?></td>
-                <td><?php echo $lusr['Usuario']; ?></td>
-              </tr>
-            <?php endforeach; ?>
-
-          </tbody>
-        </table>
-      </div>
     </div>
   </div>
 

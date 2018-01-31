@@ -15,7 +15,7 @@ class LoginModel
 
   public function login(){
 
-    $sqlLog=$this->db->query("SELECT  * FROM `usuarioweb` WHERE `Usuario` = ?");
+    //$sqlLog=$this->db->query("SELECT  * FROM `usuarioweb` WHERE `Usuario` = ?");
 
   }
 }
