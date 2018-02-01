@@ -21,21 +21,23 @@
   <div class="content">
     <div class="container">
 
-      <div class="color-fondo" align="Center"  >
-        <h3 class="formatLogin"  >Login</h3>
+      <form class="" action="index.html" method="post">
+        <div class="color-fondo" align="Center"  >
+          <h3 class="formatLogin"  >Login</h3>
 
-        <div class="input-group col-sx-12">
-          <span class="input-group-addon glyphicon glyphicon-user" id="basic-addon1"></span>
-          <input type="text" class="form-control" placeholder="Username" id="User" required>
+          <div class="input-group col-sx-12">
+            <span class="input-group-addon glyphicon glyphicon-user" id="basic-addon1"></span>
+            <input type="text" class="form-control" placeholder="Username" required>
+          </div>
+
+          <div class="input-group col-sx-12">
+            <span class="input-group-addon glyphicon glyphicon-lock" id="basic-addon1"></span>
+            <input type="password" class="form-control" placeholder="Password" id="pass" required>
+          </div>
+
+          <input type="submit" class="btn btn-success" name="loginsubmit" value="login"></input>
         </div>
-
-        <div class="input-group col-sx-12">
-          <span class="input-group-addon glyphicon glyphicon-lock" id="basic-addon1"></span>
-          <input type="password" class="form-control" placeholder="Password" id="pass" required>
-        </div>
-
-        <a href=""><button type="submit" class="btn btn-success" name="submit"><span>Login</span> </button></a>
-      </div>
+      </form>
     </div>
   </div>
 

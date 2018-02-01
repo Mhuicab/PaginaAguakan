@@ -6,7 +6,7 @@ class ConectarDB
 {
   public static function ConexionDB()
   {
-    $servername = '127.0.0.1';
+    $servername = 'localhost';
     $dbname = 'lecmed';
     $username = 'root';
     $password = '';
