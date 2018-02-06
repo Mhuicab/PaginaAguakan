@@ -1,3 +1,3 @@
 <?php
-require_once 'Controller\ControllerLogin.php';
+require_once 'Controller\ControllerConsul.php';
 ?>
