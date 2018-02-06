@@ -9,59 +9,35 @@
 </head>
 <body>
   <div class="wrapper">
-    <a class="glyphicon glyphicon-home" href="index.php"></a>
-    <nav class="nav-main">
-      <div class="top">
-        <div class="header">
-          <div class="pull-right">
-            <div class="btn-close glyphicon glyphicon-log-out">Logout</div>
-          </div>
-        </div>
-        <ul class="menu active">
-          <li class="active">
-            <a href="#">Lecturitas</a>
-          </li>
-          <li>
-            <a href="Controller\ControllerRuta.php">Rutas</a>
-          </li>
-          <li>
-            <a href="#">
-            </a>
-          </li>
-        </ul>
+    <nav class="sidebar">
+      <div class="sidebar-header">
+        <h3>Menu</h3>
       </div>
+      <ul class="list-unstyled components">
+        <li class="active">
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Lecturistas</a>
+        </li>
+        <li>
+          <a href="#">Dispositivos</a>
+        </li>
+      </ul>
+
     </nav>
 
-    <div class="header">
-      <div class="header-main">
-        <div class="box-left">
-          <div class="item bt-menu nav-main" href="index.php">
-            <div class="glyphicon glyphicon-home">
-              
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-
-
-
-
-
-
-    <div class="footer">
-      <div class="container">
-        <p class="text-muted logfin credit">Aguakan Manuel Huicab</p>
-
-      </div>
+    <div class="content">
+      <button type="button" id="sideberCollapse" class="navbar-btn"></button>
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
   </div>
+
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="bootstrap/js/sidebar.js"></script>
 </body>
 </html>
