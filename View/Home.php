@@ -14,7 +14,7 @@
         <h3>Menu</h3>
       </div>
       <ul class="list-unstyled components">
-        <li class="active">
+        <li class="active glyphicon glyphicon-home">
           <a href="#">Home</a>
         </li>
         <li>

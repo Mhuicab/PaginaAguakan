@@ -7045,6 +7045,11 @@ diseño de sidebar
   transform-origin: center left;
 }
 
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #6d7fcc;
+}
+
 #sidebar.active {
   margin-left: -250px;
   transform: rotateY(100deg);
