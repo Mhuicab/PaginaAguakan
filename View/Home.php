@@ -9,7 +9,7 @@
 </head>
 <body>
   <div class="wrapper">
-    <nav class="sidebar">
+    <nav id="sidebar">
       <div class="sidebar-header">
         <h3>Menu</h3>
       </div>
@@ -27,11 +27,12 @@
 
     </nav>
 
-    <div class="content">
-      <button type="button" id="sideberCollapse" class="navbar-btn"></button>
-      <span></span>
-      <span></span>
-      <span></span>
+    <div id="content">
+      <button type="button" id="sidebarCollapse" class="navbar-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </div>
   </div>
 
