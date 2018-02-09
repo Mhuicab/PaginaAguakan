@@ -8,35 +8,40 @@
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
 </head>
 <body>
-  <div class="wrapper">
-    <nav id="sidebar">
-      <div class="sidebar-header">
-        <h3>Menu</h3>
-      </div>
-      <ul class="list-unstyled components">
-        <li class="active glyphicon glyphicon-home">
-          <a href="#">Home</a>
+  <div id="wrapper">
+    <div class="overlay"></div>
+
+    <!--Empieza el sidebar-->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+      <ul class="nav sidebar-nav">
+        <li class="sidebar-brand">
+          <a href="#"><i class="glyphicon glyphicon-log-out"></i> Log Out</a>
         </li>
         <li>
-          <a href="#">Lecturistas</a>
+          <a href="#"><i class="glyphicon glyphicon-home"></i> Home</a>
         </li>
         <li>
-          <a href="#">Dispositivos</a>
+          <a href="#"><i class="glyphicon glyphicon-book"></i> Lecturistas</a>
+        </li>
+        <li>
+          <a href="#"><i class="glyphicon glyphicon-phone"></i> Dispositivos</a>
         </li>
       </ul>
-
     </nav>
+    <!--Termina el sidebar-->
 
-    <div id="content">
-      <button type="button" id="sidebarCollapse" class="navbar-btn">
-        <span></span>
-        <span></span>
-        <span></span>
+    <!--Empeza el content-->
+
+    <div id="page-content-wrapper">
+      <button type="button" class="hamburger is-closed animated fadeInLeft" data-toggle="offcanvas">
+        <span class="ham-top"></span>
+        <span class="ham-meddle"></span>
+        <span class="ham-bottom"></span>
       </button>
     </div>
+
   </div>
-
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="bootstrap/js/bootstrap.min.js"></script>
   <script src="bootstrap/js/sidebar.js"></script>
