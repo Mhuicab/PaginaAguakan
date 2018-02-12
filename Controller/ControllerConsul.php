@@ -1,6 +1,6 @@
 <?php
-//require_once 'Model\Consultas.php';
-require_once 'Model\Breadcrumbs.php';
+//require_once 'Model/Consultas.php';
+require_once 'Model/Breadcrumbs.php';
 
 // $Consul = new Consulta_Model();
 // $listUser=$Consul->get_User();
