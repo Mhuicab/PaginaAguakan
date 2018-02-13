@@ -2403,6 +2403,7 @@ pre code {
     background: #FFF9F7;
     border: 1px solid #c4c4c4;
     border-radius: 10px;
+    filter: opacity(80%);
   }
 }
 

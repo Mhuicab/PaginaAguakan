@@ -10,7 +10,9 @@
 </head>
 
 <body>
+  <img src="Imagenes/fondo.png" class="background">
 <div class="container-fluid">
+
     <div class="row">
       <div class="col-lg-12" align="center">
         <img src="Imagenes/logo.png" class="sizeLogo"/>
@@ -19,7 +21,7 @@
         <div class="col-lg-12">
           <form class="" action="index.html" method="post">
             <div class="color-fondo" align="Center"  >
-              <h3 class="formatLogin"  >Login</h3>
+              <h3 class="formatLogin">Login</h3>
 
               <div class="input-group col-sx-12">
                 <span class="input-group-addon glyphicon glyphicon-user" id="basic-addon1"></span>
@@ -31,7 +33,7 @@
                 <input type="password" class="form-control" placeholder="Password" id="pass" required>
               </div>
 
-              <input type="submit" class="btn btn-success glyphicon glyphicon-log-in" name="loginsubmit" value="login"></span class="glyphicon glyphicon-log-in"></span></input>
+              <button type="submit" class="btn btn-success glyphicon glyphicon-log-in" name="loginsubmit" value="login"> Login</button>
             </div>
           </form>
 
