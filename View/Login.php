@@ -10,18 +10,6 @@
 </head>
 
 <body>
-<<<<<<< HEAD
-
-<div class="header">
-
-</div>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col col-lg-8 center">
-        <img src="Imagenes/logo.png" class="sizeLogo">
-      </div>
-=======
-  
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-12" align="center">
