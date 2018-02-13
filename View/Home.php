@@ -8,39 +8,69 @@
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
 </head>
 <body>
-  <div id="wrapper">
-    <div class="overlay"></div>
 
-    <!--Empieza el sidebar-->
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapse" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle Navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#menu-toggle" id="menu-toggle"><span class="glyphicon glyphicon-list" aria-hidden="true"></span></a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"> <span class="glyphicon glyphicon-off" aria-hidden="true" ></span>Logout</a></li>
+        </ul>
+      </div>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
-      <ul class="nav sidebar-nav">
-        <li class="sidebar-brand">
-          <a href="#"><i class="glyphicon glyphicon-log-out"></i> Log Out</a>
-        </li>
-        <li>
-          <a href="#"><i class="glyphicon glyphicon-home"></i> Home</a>
-        </li>
-        <li>
-          <a href="#"><i class="glyphicon glyphicon-book"></i> Lecturistas</a>
-        </li>
-        <li>
-          <a href="#"><i class="glyphicon glyphicon-phone"></i> Dispositivos</a>
-        </li>
-      </ul>
-    </nav>
-    <!--Termina el sidebar-->
-
-    <!--Empeza el content-->
-
-    <div id="page-content-wrapper">
-      <button type="button" class="hamburger is-closed animated fadeInLeft" data-toggle="offcanvas">
-        <span class="ham-top"></span>
-        <span class="ham-meddle"></span>
-        <span class="ham-bottom"></span>
-      </button>
     </div>
+  </nav>
+  
+  <div id="wrapper" class="toggled" >
+    <div class="container-fluid">
+      <!--sidebar-->
+      <div class="sidebar-wrapper">
+        <ul class="sidebar-nav">
+          <li class="sidebar-brand">
+            <br>
+          </li>
+          <li class="sidebar-brand">
+            <a href="#" class="navbar-brand">
+              <span class="glyphicon glyphicon-user" aria-hidden="true"></span> User
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="glyphicon glyphicon-home"></span> Home
+            </a>
+          </li>
+          <li>
+            <a href="#"><span class="glyphicon glyphicon-book"></span> Lecturistas</a>
+          </li>
+          <li>
+            <a href="#"><span class="glyphicon glyphicon-phone"></span> Dispositivos</a>
+          </li>
+        </ul>
+      </div>
 
+      <!--continua con el contenido -->
+      <div class="page-content-wrapper">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12">
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+      <!--page-content fin -->
+    </div>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="bootstrap/js/bootstrap.min.js"></script>

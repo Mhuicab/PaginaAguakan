@@ -8,6 +8,13 @@ body {
 }
 
 .sizeLogo {
+<<<<<<< HEAD
   width: 255px;
   height: 190px;
+=======
+  margin-top: auto;
+  padding-top: auto;
+  width: 300px;
+  height: 150px;
+>>>>>>> dad38838b979dd9bc38648e8b20c5e0c327ca18b
 }
