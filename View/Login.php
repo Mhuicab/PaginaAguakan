@@ -19,7 +19,7 @@
       </div>
       <div class="row">
         <div class="col-lg-12">
-          <form class="" action="index.html" method="post">
+          <form class="" action="Controller/ControllerConsul.php" method="post">
             <div class="color-fondo" align="Center"  >
               <h3 class="formatLogin">Login</h3>
 
@@ -33,7 +33,7 @@
                 <input type="password" class="form-control" placeholder="Password" id="pass" required>
               </div>
 
-              <button type="submit" class="btn btn-success glyphicon glyphicon-log-in" name="loginsubmit" value="login"><a href="View/Home.php"></a> Login</button>
+              <button type="submit" class="btn btn-success glyphicon glyphicon-log-in" name="loginsubmit" value="login"> Login</button>
             </div>
           </form>
 

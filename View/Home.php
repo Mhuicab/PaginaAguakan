@@ -5,7 +5,7 @@
   <meta name="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Home</title>
-  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" type="text/css">
 </head>
 <body>
 
@@ -22,13 +22,13 @@
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#"> <span class="glyphicon glyphicon-off" aria-hidden="true" ></span>Logout</a></li>
+          <li><a href="../index.php"> <span class="glyphicon glyphicon-off" aria-hidden="true" ></span>Logout</a></li>
         </ul>
       </div>
 
     </div>
   </nav>
-  
+
   <div id="wrapper" class="toggled" >
     <div class="container-fluid">
       <!--sidebar-->
@@ -73,7 +73,7 @@
     </div>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="bootstrap/js/bootstrap.min.js"></script>
-  <script src="bootstrap/js/sidebar.js"></script>
+  <script src="../bootstrap/js/bootstrap.min.js"></script>
+  <script src="../bootstrap/js/sidebar.js"></script>
 </body>
 </html>
