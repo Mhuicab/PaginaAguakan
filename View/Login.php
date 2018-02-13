@@ -11,7 +11,7 @@
 
 <body>
   <img src="Imagenes/fondo.png" class="background">
-<div class="container-fluid">
+  <div class="container-fluid">
 
     <div class="row">
       <div class="col-lg-12" align="center">
@@ -33,7 +33,7 @@
                 <input type="password" class="form-control" placeholder="Password" id="pass" required>
               </div>
 
-              <button type="submit" class="btn btn-success glyphicon glyphicon-log-in" name="loginsubmit" value="login"> Login</button>
+              <button type="submit" class="btn btn-success glyphicon glyphicon-log-in" name="loginsubmit" value="login"><a href="View/Home.php"></a> Login</button>
             </div>
           </form>
 
