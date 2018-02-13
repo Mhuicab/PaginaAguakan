@@ -6,3 +6,8 @@ body {
   background-attachment: fixed;
   filter: opacity(80%);
 }
+
+.sizeLogo {
+  width: 255px;
+  height: 190px;
+}

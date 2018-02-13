@@ -1,5 +1,5 @@
 <?php
-//require_once 'Model\ConexionDB.php';
+require_once 'Model/ConexionDB.php';
 /**
  *
  */

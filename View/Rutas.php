@@ -28,7 +28,7 @@
           </form>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="View\Login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          <li><a href="View/Login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
         </ul>
       </nav>
       <div class="breadcrumb col-sm-3">
