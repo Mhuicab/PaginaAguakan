@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  
+
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-12" align="center">
@@ -32,7 +32,7 @@
                 <input type="password" class="form-control" placeholder="Password" id="pass" required>
               </div>
 
-              <input type="submit" class="btn btn-success glyphicon glyphicon-log-in" name="loginsubmit" value="login"></input>
+              <input type="submit" class="btn btn-success glyphicon glyphicon-log-in" name="loginsubmit" value="login"></span class="glyphicon glyphicon-log-in"></span></input>
             </div>
           </form>
 
