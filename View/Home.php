@@ -11,17 +11,10 @@
 
   <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container-fluid">
-      <!-- <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapse" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle Navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-
-      </div> -->
-      <div id="navbar" class="navbar-collapse collapse">
+      <div class="navbar-header">
         <a class="navbar-brand" href="#menu-toggle" id="menu-toggle"><span class="glyphicon glyphicon-list" aria-hidden="true"></span></a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="../index.php"> <span class="glyphicon glyphicon-off" aria-hidden="true" ></span>Logout</a></li>
         </ul>
@@ -33,7 +26,7 @@
   <div id="wrapper" class="toggled" >
     <div class="container-fluid">
       <!--sidebar-->
-      <div class="sidebar-wrapper">
+      <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
           <li class="sidebar-brand">
             <br>
@@ -44,42 +37,41 @@
             </a>
           </li>
           <li>
-            <a href="#">
-              <span class="glyphicon glyphicon-home"></span> Home
-            </a>
-          </li>
-          <li>
-            <a href="#"><span class="glyphicon glyphicon-book"></span> Lecturistas</a>
-          </li>
-          <li>
-            <a href="#"><span class="glyphicon glyphicon-phone"></span> Dispositivos</a>
-          </li>
-        </ul>
-      </div>
-</div>
+            <a href="">
+              <span class="glyphicon glyphicon-home"></span> Home</a>
+            </li>
+            <li>
+              <a href="#"><span class="glyphicon glyphicon-book"></span> Lecturistas</a>
+            </li>
+            <li>
+              <a href="#"><span class="glyphicon glyphicon-phone"></span> Dispositivos</a>
+            </li>
+          </ul>
+        </div>
 
-      <!--continua con el contenido -->
-      <div class="page-content-wrapper">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-lg-12">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                officia deserunt mollit anim id est laborum.</p>
+        <!--continua con el contenido -->
+        <div id="page-content-wrapper">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-12">
+                <?php
+                foreach ($listUser as $filas) {
+                  $json = json_encode($filas);
+                  echo $json;
+                }
+                 ?>
+                </div>
+
+              </div>
+
             </div>
 
           </div>
-
+          <!--page-content fin -->
         </div>
-
       </div>
-      <!--page-content fin -->
-</div>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="bootstrap/js/bootstrap.min.js"></script>
-  <script src="bootstrap/js/sidebar.js"></script>
-</body>
-</html>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="bootstrap/js/bootstrap.min.js"></script>
+      <script src="bootstrap/js/sidebar.js"></script>
+    </body>
+    </html>
