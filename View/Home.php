@@ -5,22 +5,23 @@
   <meta name="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Home</title>
-  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
 </head>
 <body>
 
   <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container-fluid">
-      <div class="navbar-header">
+      <!-- <div class="navbar-header">
         <button type="button" class="navbar-toggle collapse" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
           <span class="sr-only">Toggle Navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#menu-toggle" id="menu-toggle"><span class="glyphicon glyphicon-list" aria-hidden="true"></span></a>
-      </div>
+
+      </div> -->
       <div id="navbar" class="navbar-collapse collapse">
+        <a class="navbar-brand" href="#menu-toggle" id="menu-toggle"><span class="glyphicon glyphicon-list" aria-hidden="true"></span></a>
         <ul class="nav navbar-nav navbar-right">
           <li><a href="../index.php"> <span class="glyphicon glyphicon-off" aria-hidden="true" ></span>Logout</a></li>
         </ul>
@@ -55,13 +56,18 @@
           </li>
         </ul>
       </div>
+</div>
 
       <!--continua con el contenido -->
       <div class="page-content-wrapper">
         <div class="container-fluid">
           <div class="row">
             <div class="col-lg-12">
-
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                officia deserunt mollit anim id est laborum.</p>
             </div>
 
           </div>
@@ -70,10 +76,10 @@
 
       </div>
       <!--page-content fin -->
-    </div>
-  </div>
+</div>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="../bootstrap/js/bootstrap.min.js"></script>
-  <script src="../bootstrap/js/sidebar.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="bootstrap/js/sidebar.js"></script>
 </body>
 </html>

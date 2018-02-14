@@ -7011,7 +7011,7 @@ diseño de sidebar
  }
 
  #sidebar-wrapper {
-     position: fixed;
+     position: absolute;
      left: 250px;
      z-index: 1000;
      overflow-y: auto;
@@ -7032,6 +7032,8 @@ diseño de sidebar
  #page-content-wrapper {
      padding: 15px;
      width: 100%;
+     height: 100%;
+     background: #eee;
  }
 
  #wrapper.toggled #page-content-wrapper {
@@ -7087,7 +7089,7 @@ diseño de sidebar
      color: #fff;
  }
 
- @media (min-width: 768px) {
+ @media (min-width: 250px) {
      #wrapper {
          padding-left: 250px;
      }
@@ -7105,11 +7107,14 @@ diseño de sidebar
      }
 
      #page-content-wrapper {
-         padding: 20px;
+         padding: 30px;
+         width: 100%;
+         height: 100%;
+         position: absolute;
      }
 
      #wrapper.toggled #page-content-wrapper {
-         position: relative;
+         position: absolute;
          margin-right: 0;
      }
  }

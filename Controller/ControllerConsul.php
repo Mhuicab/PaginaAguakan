@@ -9,5 +9,5 @@
 // $crumbs= $BC->breadcrumb();
 
 //require_once 'View/Login.php';
-require_once '../View/Home.php';
+require_once 'View/Home.php';
  ?>
