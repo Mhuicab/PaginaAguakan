@@ -41,10 +41,10 @@
               <span class="glyphicon glyphicon-home"></span> Home</a>
             </li>
             <li>
-              <a href="Controller/ControllerLectu.php"><span class="glyphicon glyphicon-book"></span> Lecturistas</a>
+              <a href="#"><span class="glyphicon glyphicon-book"></span> Lecturistas</a>
             </li>
             <li>
-              <a href="Controller/ControllerDispositivos.php"><span class="glyphicon glyphicon-phone"></span> Dispositivos</a>
+              <a href="#"><span class="glyphicon glyphicon-phone"></span> Dispositivos</a>
             </li>
           </ul>
         </div>
@@ -54,12 +54,7 @@
           <div class="container-fluid">
             <div class="row">
               <div class="col-lg-12">
-                <?php
-                foreach ($listUser as $filas) {
-                  $json = json_encode($filas);
-                  echo $json;
-                }
-                 ?>
+                <p>Dispositivos</p>
                 </div>
 
               </div>
