@@ -19,7 +19,8 @@ class Consulta_Model
   }
 
   public function get_User(){
-    $sql=$this->db->query ("SELECT * FROM `usuarioweb`");
+    $sql=$this->db->query ("SELECT
+                 * FROM LCT_VARIABLES WHERE IDTVAR= 'VERBD';");
 
     while ($filas=$sql->fetch(PDO::FETCH_ASSOC)) {
       $this->user[]=$filas;

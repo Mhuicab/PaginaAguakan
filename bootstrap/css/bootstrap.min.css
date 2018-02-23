@@ -2402,7 +2402,14 @@ pre code {
     background: #FFF9F7;
     border: 1px solid #c4c4c4;
     border-radius: 10px;
+    box-sizing: border-box;
     filter: opacity(80%);
+  }
+}
+
+@@media (max-width:400px) {
+  .color-fondo {
+    width: 20%;
   }
 }
 

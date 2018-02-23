@@ -10,6 +10,9 @@
 </head>
 
 <body>
+
+<div class="container-fluid">
+
   <img src="Imagenes/fondo.png" class="background">
   <div class="container-fluid">
 
@@ -52,6 +55,8 @@
       </div>
     </div>
   </div>
+</div>
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="bootstrap/js/bootstrap.min.js"></script>

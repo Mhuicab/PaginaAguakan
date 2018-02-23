@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta name="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
   <title>Home</title>
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
 </head>
+
 <body>
 
   <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -23,7 +25,7 @@
     </div>
   </nav>
 
-  <div id="wrapper" class="toggled" >
+  <div id="wrapper" class="toggled">
     <div class="container-fluid">
       <!--sidebar-->
       <div id="sidebar-wrapper">
@@ -53,25 +55,24 @@
         <div id="page-content-wrapper">
           <div class="container-fluid">
             <div class="row">
-              <div class="col-lg-12">
-                <?php
-                foreach ($listUser as $filas) {
-                  $json = json_encode($filas);
-                  echo $json;
-                }
-                 ?>
-                </div>
-
+              <div class="col-lg-2">
               </div>
+              <div class="col-lg-8">
+              </div>
+              <div class="col-lg-2">
+                <button type="button" class="btn btn-primary glyphicon glyphicon-plus-sign" data-toggle="modal" id="addModal"></button>
 
             </div>
-
+              
           </div>
-          <!--page-content fin -->
+
         </div>
+        <!--page-content fin -->
       </div>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-      <script src="bootstrap/js/bootstrap.min.js"></script>
-      <script src="bootstrap/js/sidebar.js"></script>
-    </body>
-    </html>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/sidebar.js"></script>
+  </body>
+
+  </html>
