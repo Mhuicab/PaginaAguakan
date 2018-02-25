@@ -12,7 +12,7 @@
 <body>
 
   <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container-fluid">
+    <div class="container">
       <div class="navbar-header">
         <a class="navbar-brand" href="#menu-toggle" id="menu-toggle"><span class="glyphicon glyphicon-list" aria-hidden="true"></span></a>
       </div>
@@ -54,16 +54,16 @@
         <!--continua con el contenido -->
         <div id="page-content-wrapper">
           <div class="container-fluid">
+            <button type="button" class="btn btn-primary glyphicon glyphicon-plus-sign" data-toggle="modal" id="addModal"></button>
             <div class="row">
               <div class="col-lg-2">
               </div>
               <div class="col-lg-8">
               </div>
               <div class="col-lg-2">
-                <button type="button" class="btn btn-primary glyphicon glyphicon-plus-sign" data-toggle="modal" id="addModal"></button>
 
             </div>
-              
+
           </div>
 
         </div>
