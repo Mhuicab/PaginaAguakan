@@ -12,7 +12,7 @@
 <body>
   <div class="container">
     <button type="button" class="btn btn-primary glyphicon glyphicon-plus-sign" data-toggle="modal"  id="btnModal"></button>
-    <div class="modal fade bs-example-modal-md" tabindex="1" role="dialog" id="addModal">
+    <div class="modal fade" tabindex="-1" role="dialog" id="addModal">
       <div class="modal-dialog modal-md" role="document">
         <div class="modal-content">
           <div class="modal-header">

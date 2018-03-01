@@ -7,10 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Home</title>
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="bootstrap/css/Style.css" type="text/css">
 </head>
 
 <body>
-
   <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
       <div class="navbar-header">
@@ -53,26 +53,53 @@
 
         <!--continua con el contenido -->
         <div id="page-content-wrapper">
-          <div class="container-fluid">
-            <button type="button" class="btn btn-primary glyphicon glyphicon-plus-sign" data-toggle="modal" id="addModal"></button>
+          <div class="container">
+
             <div class="row">
-              <div class="col-lg-2">
+              <div class="col-sx-4 col-sm-4 col-md-4 col-lg-4">
               </div>
-              <div class="col-lg-8">
+              <div class="col-sx-4 col-sm-4 col-md-4 col-lg-4">
               </div>
-              <div class="col-lg-2">
+              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2">
+                <br>
+                <button type="button" class="btn btn-primary glyphicon glyphicon-plus-sign" data-toggle="modal"  id="btnModal"></button>
+                <div class="modal fade" tabindex="-1" role="dialog" id="addModal">
+                  <div class="modal-dialog modal-md" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="close"> <span aria-hidden="true">&times;</span> </button>
+                        <h4 class="modal-tittle" id="ModalTitulo"> Nueva Orden de Trabajo</h4>
+                      </div>
+                      <form class="modal-form" action="#" method="post">
+                        <div class="modal-body">
+                          <label for="">Folio Orden de Trabajo</label> <br>
+                          <input type="text" name="" value="" placeholder="IDTOT" class="form-control" required> <br>
+                          <label for="">Usuario crea Orden de Trabajo</label> <br>
+                          <input type="text" name="" value="" placeholder="IDTUSRCRE" class="form-control"required> <br>
+                          <label for="">Centro de operacion</label> <br>
+                          <input type="text" name="" value="" placeholder="IDTCNTOPR" class="form-control"required> <br>
+                          <label for="">Fecha de creacion</label> <br>
+                          <input type="text" class="form-control" id="datetime" readonly required>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          <button type="submit" class="btn btn-primary" value="Guardar"> Guardar</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             </div>
 
           </div>
-
+          <!--page-content fin -->
         </div>
-        <!--page-content fin -->
       </div>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="bootstrap/js/sidebar.js"></script>
-  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="bootstrap/js/sidebar.js"></script>
+</body>
 
-  </html>
+</html>
