@@ -27,17 +27,17 @@
             <div class="form-group">
               <label class="col-xs-12" for="Usuario"><h4>Usuario</h4></label>
               <div class="col-xs-10 col-xs-offset-1">
-                <input type="text" placeholder="Usuario" id="Usuario" class="form-control">
+                <input type="text" placeholder="Usuario" id="Usuario" class="form-control Input">
               </div>
             </div>
             <div class="form-group">
               <label class="col-xs-12" for="Password"><h4>Contraseña</h4></label>
               <div class="col-xs-10 col-xs-offset-1">
-                <input type="text" placeholder="Contraseña" id="Password" class="form-control">
+                <input type="text" placeholder="Contraseña" id="Password" class="form-control Input">
               </div>
             </div>
             <div class="form-group">
-              <button type="button" id="enviar" class="btn btn-success center-block">Enviar</button>
+              <button type="button" id="enviar" class="btn btn-button center-block">Enviar</button>
             </div>
 
 
