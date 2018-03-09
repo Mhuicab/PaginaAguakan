@@ -37,7 +37,7 @@ PROCEDURE Reg_ot (p_idtodt in APP.LCT_ORDENES.idtodt%type,
 IS
 
 BEGIN
- 
+
     insert into APP.LCT_ORDENES (idtusrcre,idtusrlct,idtcntopr,idtlotfac,idttrntyp,idtrtaloc)
     values (p_idtusrcre,p_idtusrlct,p_idtcntopr,p_idtlotfac,p_idttrntyp,p_idtrtaloc);
 
