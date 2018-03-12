@@ -6,15 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Administracion App</title>
-  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="bootstrap/css/Style.css" type="text/css">
+  <link href="" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="../../../bootstrap/css/Style.css" type="text/css">
 </head>
 
 <body>
   <div class="container login">
     <div class="row">
       <div class="col-xs-4 col-xs-offset-4">
-        <img src="Imagenes/user.png">
+        <img src="../Imagenes/user.png">
       </div>
 
       <div class="separador">
@@ -53,8 +53,8 @@
     </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="bootstrap/js/jquery.js"></script>
-  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="../bootstrap/js/jquery.js"></script>
+  <script src="../bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>
