@@ -9,7 +9,7 @@ class ControllerLectu
 
   public function lectu()
   {
-    echo "Controlador de las lecturas";
+    Response::render("Lecturistas");
   }
 
 }

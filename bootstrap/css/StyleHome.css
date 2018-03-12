@@ -1,7 +1,7 @@
 /*********************************Home Diseño****************************/
 
 body {
-  background-image: url('../../Imagenes/medidor.png');
+  background-image: url('../imagenes/medidor.png');
   background-repeat: no-repeat;
   background-position: right;
   background-attachment: fixed;

@@ -12,9 +12,9 @@
 
    }
 
-   public function lectu()
+   public function home()
    {
-     require_once 'Controller/ControllerLectu.php';
+     Response::render("Home");
    }
 
  }
